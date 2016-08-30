@@ -1,0 +1,16 @@
+{
+  "name": "localhostproxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "proxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-proxy": "^1.14.0",
+    "iisexpress-proxy": "^1.1.8",
+    "node-hotspot": "^0.1.7"
+  }
+}
