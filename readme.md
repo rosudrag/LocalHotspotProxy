@@ -12,6 +12,7 @@ We'll create a WiFi hotspot out of our machine in order to create a network spac
 ## To start
 
 ```
+git submodule update --init --recursive
 npm install
 npm install nodemon -g
 nodemon index.js
