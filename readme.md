@@ -16,3 +16,8 @@ NETSH WLAN start hostednetwork
 [IISExpress Node Proxy](https://github.com/icflorescu/iisexpress-proxy)
 
 iisexpress-proxy ahostname:80 to 5051
+iisexpress-proxy hulltrains.co.uk.local:80 to 5052
+
+## Change default dhcp ip
+
+http://www.tomshardware.co.uk/faq/id-1925829/change-default-internet-connection-sharing-address-range.html
