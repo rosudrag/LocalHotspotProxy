@@ -1,0 +1,3 @@
+[submodule "Windows-Hotspot"]
+	path = Windows-Hotspot
+	url = https://github.com/JamesCullum/Windows-Hotspot.git
