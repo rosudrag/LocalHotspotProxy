@@ -17,10 +17,11 @@ npm install nodemon -g
 nodemon index.js
 ```
 
+Configure the proxy to your preferences by modifying _index.js_
 
 ## To Use
-* you have to have access to the proxy
-  * you can do that by setting up wifi hotspot and connecting to the wifi
+* you have to have access to the proxy from the mobile device
+  * you do that by setting up wifi hotspot on your machine and connecting to the hotspot from your mobile device
 * setup proxy connection on port 8000 to the wifi hotspot (use Proxy Droid on android for this)
 
 ## Resources
