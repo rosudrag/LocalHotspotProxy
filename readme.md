@@ -1,8 +1,13 @@
 # Local proxy routing to IIS reverse proxy
 
+## Use case
+
+Test websites (IIS sites) in development on mobile devices without relying on opening your ports to the www.
+
 ## Solution
 
-Setup reverse proxy to the iis sites and then add rules to serve them using proxy rules.
+We'll create a WiFi hotspot out of our machine in order to create a network space where our mobile devices can access our site. We'll use a reverse proxy on the iis express site to allow it on the localhost of our machine. Finally we'll use proxy rules abstract the ugly urls and have some nice ones instead.
+
 
 ## To start
 
@@ -18,6 +23,18 @@ nodemon index.js
   * you can do that by setting up wifi hotspot and connecting to the wifi
 * setup proxy connection on port 8000 to the wifi hotspot (use Proxy Droid on android for this)
 
+## Resources
+### Requirements:
+* windows
+* node
+* network adapter with ```Hosted network supported```
+
+### Links
+* [Node Http Proxy](https://github.com/nodejitsu/node-http-proxy)
+* [Http Proxy Rules](https://github.com/donasaur/http-proxy-rules)
+* [IISExpress - proxy](https://github.com/icflorescu/iisexpress-proxy)
+* [Windows Hotspot Script](https://github.com/JamesCullum/Windows-Hotspot)
+
 
 ### Notes:
 #### Create a hospot manually
@@ -29,7 +46,6 @@ NETSH WLAN show drivers
 NETSH WLAN set hostednetwork mode=allow ssid=myssid key=mykey
 
 NETSH WLAN start hostednetwork
-
 
 
 #### IIS express proxy
